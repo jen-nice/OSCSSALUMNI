@@ -20,9 +20,10 @@ body {
 }
 
 #body_right .col-md-3 {
-background-color: #cccccc;
+background-color:#FF9966;
 border: 2px solid #000000;
 padding: 10px;
+margin: 3px;
 }
 
 
