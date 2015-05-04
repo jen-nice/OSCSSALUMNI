@@ -25,7 +25,7 @@ border: 2px solid #000000;
 padding: 10px;
 }
 
-/*
+
 .nohover {
 	width:10%;
 	float:left;
@@ -36,7 +36,7 @@ padding: 10px;
 	 background-color: transparent;
 }
 
-
+/*
 #nav_right a:link,a:visited 
 { 
 color: #FFF; 
@@ -172,7 +172,7 @@ margin:0;
 padding:0; 
 } 
 
-/*
+
 #navigation-a {
 	width: 25%;
 	height:25px;
@@ -185,4 +185,3 @@ padding:0;
 	display:block;
 	background-color: #df5759;  /*red colour of the full navigation bar*/
 }
-*/
