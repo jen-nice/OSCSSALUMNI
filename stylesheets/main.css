@@ -30,7 +30,10 @@ body {
 }
 
 #body_right .col-md-3 {
-background-color:#000000;	
+background-color:#cccccc;
+border: 3px solid #000000;
+padding: 20px;
+margin: 10px;
 }
 
 #nav_right a:link,a:visited 
