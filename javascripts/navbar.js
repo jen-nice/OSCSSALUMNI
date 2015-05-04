@@ -1,15 +1,10 @@
-$(document).ready(function (){
-  $("#slideshow").css("overflow", "hidden");
-  $("ul#slides").cycle({
-	fx: 'fade',
-	pause: 1,
-	prev: '#prev',
-	next: '#next',
-});
 
-$("#slideshow").hover(function() {
-	$("ul#nav").fadeIn();
-	},
-		function() {
-	$("ul#nav").fadeOut();
-	});
+var main = function(){
+ $('#nav_right').removeClass('.active');
+ $('.nav nav-tabs').click(function(){
+ $(this).addClass('active');	
+ });
+}
+
+$(document).ready(main);
+
