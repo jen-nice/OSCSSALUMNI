@@ -61,14 +61,17 @@ padding-right:10px;
 text-decoration: none; 
 }
 
+*/
 
 #nav_right {
+	margin-left:10px;
+        margin-right:10px;
 	width:90%;
 	height:40px;
-	background-color:#df5759; 
-	float:right; 
+	/*background-color:#df5759; 
+	float:right; */
 }
-*/
+
 
 #mainbody {
 	height:500px;
@@ -187,7 +190,7 @@ padding:0;
 	float: left;
 	color: #FC3;
 	text-decoration: none;
-	/*display:block;
-	background-color: #df5759;  /*red colour of the full navigation bar*/
+	display:block;
+	/*background-color: #df5759;  /*red colour of the full navigation bar*/
 }
 
