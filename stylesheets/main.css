@@ -20,14 +20,15 @@ body {
 }
 
 #body_right .col-md-3 {
-background-color:#df5759; /*#FF9966;*/
-border: 4px solid #ffffff;
-padding-left:25px;
-padding-right:25px;	
-padding-top:40px;
-padding-bottom:40px;
-margin-top:10px;
-margin-bottom:10px;
+	background-color:#df5759; /*#FF9966;*/
+	border: 4px solid #ffffff;
+	color: #ffffff;
+	padding-left:25px;
+	padding-right:auto;	
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 
