@@ -19,6 +19,7 @@ body {
 	overflow: hidden;
 }
 
+/*
 .nohover {
 	width:10%;
 	float:left;
@@ -28,6 +29,7 @@ body {
 .nohover a:hover {
 	 background-color: transparent;
 }
+*/
 
 #body_right .col-md-3 {
 background-color: orange; /*#cccccc;*/
@@ -169,7 +171,7 @@ margin:0;
 padding:0; 
 } 
 
-
+/*
 #navigation-a {
 	width: 25%;
 	height:25px;
@@ -182,3 +184,4 @@ padding:0;
 	display:block;
 	background-color: #df5759;  /*red colour of the full navigation bar*/
 }
+*/
