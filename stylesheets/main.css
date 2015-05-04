@@ -19,6 +19,12 @@ body {
 	overflow: hidden;
 }
 
+#body_right .col-md-3 {
+background-color: #cccccc;
+border: 2px solid #000000;
+padding: 10px;
+}
+
 /*
 .nohover {
 	width:10%;
@@ -29,13 +35,7 @@ body {
 .nohover a:hover {
 	 background-color: transparent;
 }
-*/
 
-#body_right .col-md-3 {
-background-color: #cccccc;
-border: 2px solid #000000;
-padding: 10px;
-}
 
 #nav_right a:link,a:visited 
 { 
@@ -53,8 +53,9 @@ color:orange;
 padding:10px;
 padding-left:10px;
 padding-right:10px;
-text-decoration: none; */
+text-decoration: none; 
 }
+*/
 
 #nav_right {
 	width:90%;
@@ -82,6 +83,7 @@ text-decoration: none; */
 	float:left;
 }
 
+/*
 #mainbody a
 {
 	text-decoration:none;
@@ -95,7 +97,7 @@ text-decoration: none; */
 	font-weight:800;
 	padding:10px;
 	} 
-
+*/
 
 #mainbody_left h1
 { 
