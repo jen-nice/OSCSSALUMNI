@@ -1,8 +1,8 @@
 
 var main = function(){
- $('#nav_right').removeClass('.active');
- $('.nav nav-tabs').click(function(){
- $(this).addClass('active');	
+ $('.nav-tabs').click(function(){
+  $('.nav-tabs').removeClass('.active');
+  $(this).addClass('active');	
  });
 }
 
