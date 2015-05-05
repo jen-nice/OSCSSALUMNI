@@ -63,15 +63,23 @@ body {
 }
 
 .dropdown-menu li a {
-  color: #898989;
-  padding: 6px 20px;
-  font-weight: 300;
+	 color: #898989;
+	 padding: 6px 20px;
+	 font-weight: 300;
 }
 
 .thumbnails .thumbnail {
 	background-color:#df5759;
 	height:180px;
 	width: 180px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.thumbnails a {
+	color: #ffffff;
+	size:20px;
+	weight:bold;
 }
 
 .divider{
