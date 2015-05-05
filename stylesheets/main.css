@@ -54,7 +54,11 @@ body {
 }
 
 .thumbnails .thumbnail {
-	background-color:#df5759;	
+	background-color:#df5759;
+	padding-left:25px;
+	padding-right:25px;	
+	padding-top:25px;
+	padding-bottom:25px;
 }
 
 .divider{
