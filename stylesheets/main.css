@@ -76,16 +76,14 @@ body {
 	padding-bottom:40px;
 }
 
-.thumbnails a {
+.thumbnail a {
 	color: #ffffff;
 	size:20px;
 	weight:bold;
 }
 
-.thumbnails a:hover,a:active 
-{ 
+.thumbnail a:hover,a:active { 
 	color:orange;
-
 } 
 
 .divider{
