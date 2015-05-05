@@ -55,6 +55,8 @@ body {
 
 .thumbnails .thumbnail {
 	background-image: @import url('images/thumbnail1.jpg');
+	height: 20px;
+	width: 20px;
 }
 
 .divider{
