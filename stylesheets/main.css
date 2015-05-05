@@ -54,6 +54,20 @@ body {
 	float:right; */
 }
 
+/* Dropdown */
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
 .thumbnails .thumbnail {
 	background-color:#df5759;
 	height:180px;
