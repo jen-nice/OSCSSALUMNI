@@ -75,6 +75,9 @@ text-decoration: none;
 	float:right; */
 }
 
+.thumbnails .thumbnail {
+background-color:#df5759;	
+}
 
 #mainbody {
 	height:500px;
