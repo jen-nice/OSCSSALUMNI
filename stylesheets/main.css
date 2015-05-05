@@ -82,6 +82,12 @@ body {
 	weight:bold;
 }
 
+.thumbnails a:hover,a:active 
+{ 
+	color:orange;
+
+} 
+
 .divider{
 	background-color:#df5759; 	
 }
