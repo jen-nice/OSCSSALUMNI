@@ -4,9 +4,9 @@ var main = function(){
      $('.dropdown-menu').toggle();  
  });
     
- $('.nav-tabs').click(function(){
+ $('.nav-pills').click(function(){
   $('.nav').removeClass('.active');
-  $('.nav tabs').addClass('active');	
+  $('.nav-pills').addClass('active');	
  });
 }
 
