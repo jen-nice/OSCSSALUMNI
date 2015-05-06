@@ -1,4 +1,4 @@
-$('.icon-menu').click(function() {
+$('.trialme').click(function() {
     $('#body-right').animate({
       left: "285pxpx"
     }, 200);
