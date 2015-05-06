@@ -1,6 +1,6 @@
 $('.trialme').click(function() {
-    $('#body-right').animate({
-      left: "285pxpx"
+    $('.trialme').animate({
+      left:"285px"
     }, 200);
   });
   
