@@ -80,12 +80,14 @@ body {
 
 .thumbnails a {
 	color: #ffffff;
+	text-decoration: none;
 	size:20px;
 	weight:bold;
 }
 
 .thumbnails a:hover,a:active { 
 	color:orange;
+	text-decoration: none;
 } 
 
 .divider{
