@@ -99,6 +99,7 @@ ul
 	font-size:20px;
 }
 
+/*
 #mainbody_left {
 	margin-top:40px;
 	width:470px;
@@ -106,6 +107,7 @@ ul
 	text-decoration:none;
 	float:left;
 }
+*/
 
 /*About page*/
 #pagetopic {
@@ -113,19 +115,12 @@ ul
 	margin-top:20px;
 }
 /*About page*/
-
-#mainbody_left h1
-{ 
-	font-size:25px;
-	font-weight:bold;
-	font-style:italic;
-}
-
+/*
 #mainbody_right {
 	width:450px;
 	float:right;
 	margin-left:10px;
-}
+}*/
 
 #oscfacebook {
 	font-size:40px;
