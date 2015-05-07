@@ -108,11 +108,13 @@ ul
 	float:left;
 }
 
+/*About page*/
 #pagetopic {
  	height:70px;
 	margin-top:20px;
-	font-size:25px;
+	font-size:20px;
 }
+/*About page*/
 
 #mainbody_left h1
 { 
