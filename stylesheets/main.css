@@ -19,22 +19,6 @@ body {
 	overflow: hidden;
 }
 
-/*
-#body_right .col-md-3 {
-	background-color:#df5759; 
-	border: 4px solid #ffffff;
-	color: #ffffff;
-	font-size:16px;
-	font-weight:bold;
-	padding-left:25px;
-	padding-right:auto;	
-	padding-top:40px;
-	padding-bottom:40px;
-	margin-top:10px;
-	margin-bottom:10px;
-}*/
-
-
 .nohover {
 	width:10%;
 	float:left;
@@ -50,8 +34,9 @@ body {
         margin-right:10px;
 	width:90%;
 	height:40px;
-	/*background-color:#df5759; 
-	float:right; */
+	font-size: 16px;
+	font-weight: bold;
+	float:right; 
 }
 
 /* Dropdown */
