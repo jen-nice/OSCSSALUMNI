@@ -1,2 +1,2 @@
 # OSCSSALUMNI
-Website for alumni of the Ontario Science Centre Science School Alumni
+Updated website for alumni of the Ontario Science Centre Science School Alumni
