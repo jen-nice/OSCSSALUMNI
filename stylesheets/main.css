@@ -43,11 +43,10 @@ ul
 #nav_right {
 	margin-left:10px;
         margin-right:10px;
-	width:90%;
+	width:85%;
 	height:40px;
 	font-size: 16px;
 	font-weight: bold;
-	float:right; 
 }
 
 /* Dropdown */
