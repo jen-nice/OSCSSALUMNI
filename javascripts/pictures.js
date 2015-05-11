@@ -1,5 +1,5 @@
 var main = function(){
- $('.active-slide').click(function() {
+ $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();
 
