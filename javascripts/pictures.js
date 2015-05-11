@@ -1,5 +1,5 @@
 
-var main = function(){
+/*var main = function(){
  $('.glyphicon glyphicon-chevron-right').click(function(){
  var currentSlide =$('.active-slide');
  var nextSlide = currentSlide.next();
@@ -15,7 +15,20 @@ var main = function(){
  currentSlide.fadeOut(600).removeClass('active-slide');
  nextSlide.fadeIn(600).addClass('active-slide');	
  });
-}
+}*/
 
+var main = function(){
+ $('.arrow-next').click(function() {
+    var currentSlide = $('.active-slide');
+    var nextSlide = currentSlide.next();
+
+    if(nextSlide.length === 0) {
+      nextSlide = $('.slide').first();
+      nextDot = $('.dot').first();
+    }
+    
+    currentSlide.fadeOut(600).removeClass('active-slide');
+    nextSlide.fadeIn(600).addClass('active-slide');
+  });
 
 $(document).ready(main);
