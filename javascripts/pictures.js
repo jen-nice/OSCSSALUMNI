@@ -11,11 +11,12 @@ $('.arrow-next').click(function() {
       nextSlide = $('.slide').first();
       nextDot = $('.dot').first();
     }
-      currentSlide.fadeOut(600).removeClass('active-slide');
-    prevSlide.fadeIn(600).addClass('active-slide');
+    
+    currentSlide.fadeOut(600).removeClass('active-slide');
+    nextSlide.fadeIn(600).addClass('active-slide');
     
     currentDot.removeClass('active-dot');
-    prevDot.addClass('active-dot');
+    nextDot.addClass('active-dot');
   });
 
  $('.arrow-prev').click(function() {
