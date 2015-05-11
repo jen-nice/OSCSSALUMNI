@@ -159,14 +159,14 @@ ul
   margin-top: 9px;
 }
 
-.dot li {
+.slider-dots li {
   color: #bbbcbc;
   display: inline;
   font-size: 30px;
   margin-right: 5px;
 }
 
-.dot li.active-dot {
+.slider-dots li.active-dot {
   color: #363636;
 }
 
