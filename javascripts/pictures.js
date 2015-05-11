@@ -31,4 +31,17 @@ var main = function(){
     nextSlide.fadeIn(600).addClass('active-slide');
   });
 
+ $('.arrow-prev').click(function() {
+    var currentSlide = $('.active-slide');
+    var prevSlide = currentSlide.prev();
+
+    if(prevSlide.length === 0) {
+      prevSlide = $('.slide').last();
+      prevDot = $('.dot').last();
+    }
+      currentSlide.fadeOut(600).removeClass('active-slide');
+    prevSlide.fadeIn(600).addClass('active-slide');
+  });
+};
+
 $(document).ready(main);
