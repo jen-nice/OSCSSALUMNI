@@ -139,10 +139,12 @@ ul
 }
 
 /*Picture Slider*/
-.arrow-next {
-  display: inline-block;
-  align: centre;
-  margin-top: 9px;
+.slide {
+  display: none;
+}
+
+.active-slide {
+    display: block;
 }
 
 .arrow-next {
@@ -151,11 +153,23 @@ ul
   margin-top: 9px;
 }
 
-.dot{
-display: inline;
-margin-top: 9px;
-text-align:center;
+.arrow-next {
+  display: inline-block;
+  align: centre;
+  margin-top: 9px;
 }
+
+.dot li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.dot li.active-dot {
+  color: #363636;
+}
+
 /*Picture Slider*/
 
 
