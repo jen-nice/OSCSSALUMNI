@@ -138,6 +138,27 @@ ul
  	display: inline;
 }
 
+/*Picture Slider*/
+.arrow-next {
+  display: inline-block;
+  align: centre;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  display: inline-block;
+  align: centre;
+  margin-top: 9px;
+}
+
+.dot{
+display: inline;
+margin-top: 9px;
+text-align:center;
+}
+/*Picture Slider*/
+
+
 /* Footer */
 #footer {
 	background-color:#fdf7f7;
