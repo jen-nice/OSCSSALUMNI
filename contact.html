@@ -63,9 +63,14 @@
     <div id="mainbody" class ="col-md-12"> <div id="pagetopic"><h1> Contact </h1></div>
     Have a question for us? <br/>
     
-    <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.ca/form/40579037956264" frameborder="0" style="width:100%; height:465px; border:none;" scrolling="no"></iframe>
-<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
-
+    <form method="post" name="registration-form" action="sendmail.php">
+  Name: <input name="name" type="text" /><br /><br>
+  Email: <input name="email" type="text" /><br /><br>
+  Message:<br />
+  <textarea name="message" rows="2" cols="40">
+  </textarea><br />
+  <input type="submit" />
+</form>
             </div>
   </div>
   
