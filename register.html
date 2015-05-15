@@ -65,8 +65,18 @@
     Keep the spark alive! <br/>
     We want to connect semesters so let us know which one you hail from. Fill in the form below to register. 
     
-    <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.ca/form/40579259893270" frameborder="0" style="width:100%; height:465px; border:none;" scrolling="no"></iframe>
-<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
+  <br>   
+  <form method="post" name="registration-form" action="sendmail.php">
+  Name: <input name="name" type="text" /><br /><br>
+  Email: <input name="email" type="text" /><br /><br>
+  Semester: <input name="semester" type="text" /><br /><br>
+  Message:<br />
+  <textarea name="message" rows="15" cols="40">
+  </textarea><br />
+  <input type="submit" />
+</form> 
+
+    
         </div>
   </div>
 <!--Main body -->
